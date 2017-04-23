@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Jsonify"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "A delightful JSON parsing framework written in Swift"
 
 # This description is used to generate tags and improve search results.
@@ -29,12 +29,18 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.10'
-  # s.tvos.deployment_target = '9.0'
-  # s.watchos.deployment_target = '2.0'
+  s.tvos.deployment_target = '9.0'
+  s.watchos.deployment_target = '2.0'
 
   s.ios.source_files = 'Jsonify/JsonifyIOS/*{.h}','Jsonify/**/*{.swift}'
   s.osx.source_files = 'Jsonify/JsonifyOSX/*{.h}','Jsonify/**/*{.swift}'
+  s.tvos.source_files = 'Jsonify/JsonifyTVOS/*{.h}','Jsonify/**/*{.swift}'
+  s.watchos.source_files = 'Jsonify/JsonifyWatchOS/*{.h}','Jsonify/**/*{.swift}'
+
   s.ios.public_header_files = 'Jsonify/JsonifyIOS/*{.h}'
   s.osx.public_header_files = 'Jsonify/JsonifyOSX/*{.h}'
+  s.tvos.public_header_files = 'Jsonify/JsonifyTVOS/*{.h}'
+  s.watchos.public_header_files = 'Jsonify/JsonifyWatchOS/*{.h}'
+
   s.frameworks = 'Foundation'
 end

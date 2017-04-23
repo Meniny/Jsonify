@@ -7,9 +7,19 @@
 		<key>JsonifyIOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 		<key>JsonifyOSX.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>JsonifyTVOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>JsonifyWatchOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>2</integer>
@@ -28,6 +38,16 @@
 			<true/>
 		</dict>
 		<key>5C7110C41EAC88A000214A4B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5C984F511EAC955A00100B13</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5C984F601EAC956A00100B13</key>
 		<dict>
 			<key>primary</key>
 			<true/>

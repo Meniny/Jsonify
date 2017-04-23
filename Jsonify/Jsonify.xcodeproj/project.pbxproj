@@ -15,6 +15,12 @@
 		5C6CC6F61EAC88EF00ABD0F7 /* JsonifyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6CC6F21EAC88E800ABD0F7 /* JsonifyModel.swift */; };
 		5C6CC6FB1EAC898400ABD0F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C6CC6FA1EAC898400ABD0F7 /* Foundation.framework */; };
 		5C6CC6FD1EAC898900ABD0F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C6CC6FC1EAC898900ABD0F7 /* Foundation.framework */; };
+		5C984F561EAC955A00100B13 /* JsonifyWatchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C984F541EAC955A00100B13 /* JsonifyWatchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C984F5A1EAC956100100B13 /* Jsonify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6CC6F11EAC88E800ABD0F7 /* Jsonify.swift */; };
+		5C984F5B1EAC956100100B13 /* JsonifyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6CC6F21EAC88E800ABD0F7 /* JsonifyModel.swift */; };
+		5C984F651EAC956A00100B13 /* JsonifyTVOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C984F631EAC956A00100B13 /* JsonifyTVOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C984F691EAC956F00100B13 /* Jsonify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6CC6F11EAC88E800ABD0F7 /* Jsonify.swift */; };
+		5C984F6A1EAC956F00100B13 /* JsonifyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6CC6F21EAC88E800ABD0F7 /* JsonifyModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +34,12 @@
 		5C6CC6F21EAC88E800ABD0F7 /* JsonifyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonifyModel.swift; sourceTree = "<group>"; };
 		5C6CC6FA1EAC898400ABD0F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5C6CC6FC1EAC898900ABD0F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5C984F521EAC955A00100B13 /* JsonifyWatchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JsonifyWatchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C984F541EAC955A00100B13 /* JsonifyWatchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsonifyWatchOS.h; sourceTree = "<group>"; };
+		5C984F551EAC955A00100B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C984F611EAC956A00100B13 /* JsonifyTVOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JsonifyTVOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C984F631EAC956A00100B13 /* JsonifyTVOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsonifyTVOS.h; sourceTree = "<group>"; };
+		5C984F641EAC956A00100B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +56,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C6CC6FD1EAC898900ABD0F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C984F4E1EAC955A00100B13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C984F5D1EAC956A00100B13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +118,8 @@
 				5C6CC6F01EAC88E800ABD0F7 /* Jsonify */,
 				5C6CC6DC1EAC88D700ABD0F7 /* JsonifyIOS */,
 				5C6CC6E91EAC88E000ABD0F7 /* JsonifyOSX */,
+				5C984F531EAC955A00100B13 /* JsonifyWatchOS */,
+				5C984F621EAC956A00100B13 /* JsonifyTVOS */,
 				5C7110C61EAC88A000214A4B /* Products */,
 				5C6CC6F91EAC898400ABD0F7 /* Frameworks */,
 			);
@@ -102,8 +130,28 @@
 			children = (
 				5C6CC6DB1EAC88D700ABD0F7 /* JsonifyIOS.framework */,
 				5C6CC6E81EAC88E000ABD0F7 /* JsonifyOSX.framework */,
+				5C984F521EAC955A00100B13 /* JsonifyWatchOS.framework */,
+				5C984F611EAC956A00100B13 /* JsonifyTVOS.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		5C984F531EAC955A00100B13 /* JsonifyWatchOS */ = {
+			isa = PBXGroup;
+			children = (
+				5C984F541EAC955A00100B13 /* JsonifyWatchOS.h */,
+				5C984F551EAC955A00100B13 /* Info.plist */,
+			);
+			path = JsonifyWatchOS;
+			sourceTree = "<group>";
+		};
+		5C984F621EAC956A00100B13 /* JsonifyTVOS */ = {
+			isa = PBXGroup;
+			children = (
+				5C984F631EAC956A00100B13 /* JsonifyTVOS.h */,
+				5C984F641EAC956A00100B13 /* Info.plist */,
+			);
+			path = JsonifyTVOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +170,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C6CC6EC1EAC88E000ABD0F7 /* JsonifyOSX.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C984F4F1EAC955A00100B13 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C984F561EAC955A00100B13 /* JsonifyWatchOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C984F5E1EAC956A00100B13 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C984F651EAC956A00100B13 /* JsonifyTVOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +228,42 @@
 			productReference = 5C6CC6E81EAC88E000ABD0F7 /* JsonifyOSX.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		5C984F511EAC955A00100B13 /* JsonifyWatchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C984F591EAC955A00100B13 /* Build configuration list for PBXNativeTarget "JsonifyWatchOS" */;
+			buildPhases = (
+				5C984F4D1EAC955A00100B13 /* Sources */,
+				5C984F4E1EAC955A00100B13 /* Frameworks */,
+				5C984F4F1EAC955A00100B13 /* Headers */,
+				5C984F501EAC955A00100B13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JsonifyWatchOS;
+			productName = JsonifyWatchOS;
+			productReference = 5C984F521EAC955A00100B13 /* JsonifyWatchOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5C984F601EAC956A00100B13 /* JsonifyTVOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C984F661EAC956A00100B13 /* Build configuration list for PBXNativeTarget "JsonifyTVOS" */;
+			buildPhases = (
+				5C984F5C1EAC956A00100B13 /* Sources */,
+				5C984F5D1EAC956A00100B13 /* Frameworks */,
+				5C984F5E1EAC956A00100B13 /* Headers */,
+				5C984F5F1EAC956A00100B13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JsonifyTVOS;
+			productName = JsonifyTVOS;
+			productReference = 5C984F611EAC956A00100B13 /* JsonifyTVOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -180,6 +280,16 @@
 						ProvisioningStyle = Automatic;
 					};
 					5C6CC6E71EAC88E000ABD0F7 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 63YL5QDMNS;
+						ProvisioningStyle = Automatic;
+					};
+					5C984F511EAC955A00100B13 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 63YL5QDMNS;
+						ProvisioningStyle = Automatic;
+					};
+					5C984F601EAC956A00100B13 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = 63YL5QDMNS;
 						ProvisioningStyle = Automatic;
@@ -201,6 +311,8 @@
 			targets = (
 				5C6CC6DA1EAC88D700ABD0F7 /* JsonifyIOS */,
 				5C6CC6E71EAC88E000ABD0F7 /* JsonifyOSX */,
+				5C984F511EAC955A00100B13 /* JsonifyWatchOS */,
+				5C984F601EAC956A00100B13 /* JsonifyTVOS */,
 			);
 		};
 /* End PBXProject section */
@@ -214,6 +326,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		5C6CC6E61EAC88E000ABD0F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C984F501EAC955A00100B13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C984F5F1EAC956A00100B13 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -238,6 +364,24 @@
 			files = (
 				5C6CC6F51EAC88EF00ABD0F7 /* Jsonify.swift in Sources */,
 				5C6CC6F61EAC88EF00ABD0F7 /* JsonifyModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C984F4D1EAC955A00100B13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C984F5A1EAC956100100B13 /* Jsonify.swift in Sources */,
+				5C984F5B1EAC956100100B13 /* JsonifyModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C984F5C1EAC956A00100B13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C984F691EAC956F00100B13 /* Jsonify.swift in Sources */,
+				5C984F6A1EAC956F00100B13 /* JsonifyModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +581,110 @@
 			};
 			name = Release;
 		};
+		5C984F571EAC955A00100B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 63YL5QDMNS;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JsonifyWatchOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.meniny.JsonifyWatchOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		5C984F581EAC955A00100B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 63YL5QDMNS;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JsonifyWatchOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.meniny.JsonifyWatchOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		5C984F671EAC956A00100B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 63YL5QDMNS;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JsonifyTVOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.meniny.JsonifyTVOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5C984F681EAC956A00100B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 63YL5QDMNS;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JsonifyTVOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.meniny.JsonifyTVOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -447,6 +695,7 @@
 				5C6CC6E11EAC88D700ABD0F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C6CC6ED1EAC88E000ABD0F7 /* Build configuration list for PBXNativeTarget "JsonifyOSX" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +704,7 @@
 				5C6CC6EF1EAC88E000ABD0F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C7110C01EAC88A000214A4B /* Build configuration list for PBXProject "Jsonify" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +714,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		5C984F591EAC955A00100B13 /* Build configuration list for PBXNativeTarget "JsonifyWatchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C984F571EAC955A00100B13 /* Debug */,
+				5C984F581EAC955A00100B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5C984F661EAC956A00100B13 /* Build configuration list for PBXNativeTarget "JsonifyTVOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C984F671EAC956A00100B13 /* Debug */,
+				5C984F681EAC956A00100B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
