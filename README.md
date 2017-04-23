@@ -20,7 +20,7 @@
 
 ## What's this?
 
-Jsonify is a delightful JSON parsing networking framework for iOS/macOS/watchOS/tvOS platforms written in Swift.
+Jsonify is a delightful JSON parsing framework for iOS/macOS/watchOS/tvOS platforms written in Swift.
 
 ## Requirements
 
