@@ -1,6 +1,5 @@
 //
-//  Jsonify
-.h
+//  Jsonify.h
 //  Jsonify
 //
 //  Created by Meniny on 2017-04-23.
