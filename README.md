@@ -63,7 +63,7 @@ You are welcome to fork and submit pull requests.
 
 ## License
 
-Fire is open-sourced software, licensed under the `MIT` license.
+Jsonify is open-sourced software, licensed under the `MIT` license.
 
 ## Sample
 
