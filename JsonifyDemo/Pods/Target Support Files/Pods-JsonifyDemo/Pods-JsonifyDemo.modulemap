@@ -1,0 +1,6 @@
+framework module Pods_JsonifyDemo {
+  umbrella header "Pods-JsonifyDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

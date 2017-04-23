@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EE201D2897790CFEA060046 /* Pods_JsonifyDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBC6745A7BC7A89B3362EE54 /* Pods_JsonifyDemo.framework */; };
+		5C6CC70B1EAC899C00ABD0F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6CC70A1EAC899C00ABD0F7 /* AppDelegate.swift */; };
+		5C6CC70D1EAC899C00ABD0F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6CC70C1EAC899C00ABD0F7 /* ViewController.swift */; };
+		5C6CC70F1EAC899C00ABD0F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C6CC70E1EAC899C00ABD0F7 /* Assets.xcassets */; };
+		5C6CC7121EAC899C00ABD0F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C6CC7101EAC899C00ABD0F7 /* Main.storyboard */; };
+		5CC1A9FB1EAC89F400C48C0B /* Jsonify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC1A9FA1EAC89F400C48C0B /* Jsonify.framework */; };
+		5CC1AA031EAC8A3200C48C0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC1AA021EAC8A3200C48C0B /* AppDelegate.swift */; };
+		5CC1AA051EAC8A3200C48C0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC1AA041EAC8A3200C48C0B /* ViewController.swift */; };
+		5CC1AA081EAC8A3200C48C0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC1AA061EAC8A3200C48C0B /* Main.storyboard */; };
+		5CC1AA0A1EAC8A3200C48C0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CC1AA091EAC8A3200C48C0B /* Assets.xcassets */; };
+		5CC1AA0D1EAC8A3200C48C0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC1AA0B1EAC8A3200C48C0B /* LaunchScreen.storyboard */; };
+		5CC1AA131EAC8A7E00C48C0B /* JsonifyDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC1AA121EAC8A7E00C48C0B /* JsonifyDemo.swift */; };
+		5CC1AA181EAC8AA200C48C0B /* simple_array.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CC1AA151EAC8AA200C48C0B /* simple_array.json */; };
+		5CC1AA191EAC8AA200C48C0B /* simple_dictionary.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CC1AA161EAC8AA200C48C0B /* simple_dictionary.json */; };
+		5CC1AA1B1EAC8B2A00C48C0B /* simple_array.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CC1AA151EAC8AA200C48C0B /* simple_array.json */; };
+		5CC1AA1C1EAC8B2A00C48C0B /* simple_dictionary.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CC1AA161EAC8AA200C48C0B /* simple_dictionary.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DFD15A2AA033B243E5B25CB /* Pods-JsonifyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JsonifyDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JsonifyDemo/Pods-JsonifyDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5C6CC7071EAC899C00ABD0F7 /* JsonifyDemoOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JsonifyDemoOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C6CC70A1EAC899C00ABD0F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C6CC70C1EAC899C00ABD0F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C6CC70E1EAC899C00ABD0F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C6CC7111EAC899C00ABD0F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C6CC7131EAC899C00ABD0F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CC1A9FA1EAC89F400C48C0B /* Jsonify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Jsonify.framework; path = "../../../Library/Developer/Xcode/DerivedData/JsonifyDemo-eezgcsgcthefdagkddgzxiiizzqn/Build/Products/Debug/Jsonify/Jsonify.framework"; sourceTree = "<group>"; };
+		5CC1AA001EAC8A3200C48C0B /* JsonifyDemoiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JsonifyDemoiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC1AA021EAC8A3200C48C0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5CC1AA041EAC8A3200C48C0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5CC1AA071EAC8A3200C48C0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CC1AA091EAC8A3200C48C0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CC1AA0C1EAC8A3200C48C0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CC1AA0E1EAC8A3200C48C0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CC1AA121EAC8A7E00C48C0B /* JsonifyDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonifyDemo.swift; sourceTree = "<group>"; };
+		5CC1AA151EAC8AA200C48C0B /* simple_array.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = simple_array.json; sourceTree = "<group>"; };
+		5CC1AA161EAC8AA200C48C0B /* simple_dictionary.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = simple_dictionary.json; sourceTree = "<group>"; };
+		7D38C2578CB258DB9E74D11E /* Pods-JsonifyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JsonifyDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JsonifyDemo/Pods-JsonifyDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		DBC6745A7BC7A89B3362EE54 /* Pods_JsonifyDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JsonifyDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C6CC7041EAC899C00ABD0F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC1A9FB1EAC89F400C48C0B /* Jsonify.framework in Frameworks */,
+				1EE201D2897790CFEA060046 /* Pods_JsonifyDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC1A9FD1EAC8A3200C48C0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48147741D9B02FE1AFD9B2D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CC1A9FA1EAC89F400C48C0B /* Jsonify.framework */,
+				DBC6745A7BC7A89B3362EE54 /* Pods_JsonifyDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C6CC6FE1EAC899C00ABD0F7 = {
+			isa = PBXGroup;
+			children = (
+				5CC1AA121EAC8A7E00C48C0B /* JsonifyDemo.swift */,
+				5CC1AA151EAC8AA200C48C0B /* simple_array.json */,
+				5CC1AA161EAC8AA200C48C0B /* simple_dictionary.json */,
+				5C6CC7091EAC899C00ABD0F7 /* JsonifyDemoOSX */,
+				5CC1AA011EAC8A3200C48C0B /* JsonifyDemoiOS */,
+				5C6CC7081EAC899C00ABD0F7 /* Products */,
+				BD6016DA725F6749C6551C03 /* Pods */,
+				48147741D9B02FE1AFD9B2D7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5C6CC7081EAC899C00ABD0F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C6CC7071EAC899C00ABD0F7 /* JsonifyDemoOSX.app */,
+				5CC1AA001EAC8A3200C48C0B /* JsonifyDemoiOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C6CC7091EAC899C00ABD0F7 /* JsonifyDemoOSX */ = {
+			isa = PBXGroup;
+			children = (
+				5C6CC70A1EAC899C00ABD0F7 /* AppDelegate.swift */,
+				5C6CC70C1EAC899C00ABD0F7 /* ViewController.swift */,
+				5C6CC70E1EAC899C00ABD0F7 /* Assets.xcassets */,
+				5C6CC7101EAC899C00ABD0F7 /* Main.storyboard */,
+				5C6CC7131EAC899C00ABD0F7 /* Info.plist */,
+			);
+			name = JsonifyDemoOSX;
+			path = JsonifyDemo;
+			sourceTree = "<group>";
+		};
+		5CC1AA011EAC8A3200C48C0B /* JsonifyDemoiOS */ = {
+			isa = PBXGroup;
+			children = (
+				5CC1AA021EAC8A3200C48C0B /* AppDelegate.swift */,
+				5CC1AA041EAC8A3200C48C0B /* ViewController.swift */,
+				5CC1AA061EAC8A3200C48C0B /* Main.storyboard */,
+				5CC1AA091EAC8A3200C48C0B /* Assets.xcassets */,
+				5CC1AA0B1EAC8A3200C48C0B /* LaunchScreen.storyboard */,
+				5CC1AA0E1EAC8A3200C48C0B /* Info.plist */,
+			);
+			path = JsonifyDemoiOS;
+			sourceTree = "<group>";
+		};
+		BD6016DA725F6749C6551C03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D38C2578CB258DB9E74D11E /* Pods-JsonifyDemo.debug.xcconfig */,
+				1DFD15A2AA033B243E5B25CB /* Pods-JsonifyDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C6CC7061EAC899C00ABD0F7 /* JsonifyDemoOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C6CC7161EAC899C00ABD0F7 /* Build configuration list for PBXNativeTarget "JsonifyDemoOSX" */;
+			buildPhases = (
+				553EC515C3D827C6356F929F /* [CP] Check Pods Manifest.lock */,
+				5C6CC7031EAC899C00ABD0F7 /* Sources */,
+				5C6CC7041EAC899C00ABD0F7 /* Frameworks */,
+				5C6CC7051EAC899C00ABD0F7 /* Resources */,
+				C44FF6BAEB6EC5910C7C6776 /* [CP] Embed Pods Frameworks */,
+				94BF8278E873591A5C1284F7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JsonifyDemoOSX;
+			productName = JsonifyDemo;
+			productReference = 5C6CC7071EAC899C00ABD0F7 /* JsonifyDemoOSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CC1A9FF1EAC8A3200C48C0B /* JsonifyDemoiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CC1AA0F1EAC8A3200C48C0B /* Build configuration list for PBXNativeTarget "JsonifyDemoiOS" */;
+			buildPhases = (
+				5CC1A9FC1EAC8A3200C48C0B /* Sources */,
+				5CC1A9FD1EAC8A3200C48C0B /* Frameworks */,
+				5CC1A9FE1EAC8A3200C48C0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JsonifyDemoiOS;
+			productName = JsonifyDemoiOS;
+			productReference = 5CC1AA001EAC8A3200C48C0B /* JsonifyDemoiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C6CC6FF1EAC899C00ABD0F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Meniny;
+				TargetAttributes = {
+					5C6CC7061EAC899C00ABD0F7 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 63YL5QDMNS;
+						ProvisioningStyle = Automatic;
+					};
+					5CC1A9FF1EAC8A3200C48C0B = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 63YL5QDMNS;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5C6CC7021EAC899C00ABD0F7 /* Build configuration list for PBXProject "JsonifyDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C6CC6FE1EAC899C00ABD0F7;
+			productRefGroup = 5C6CC7081EAC899C00ABD0F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C6CC7061EAC899C00ABD0F7 /* JsonifyDemoOSX */,
+				5CC1A9FF1EAC8A3200C48C0B /* JsonifyDemoiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C6CC7051EAC899C00ABD0F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6CC70F1EAC899C00ABD0F7 /* Assets.xcassets in Resources */,
+				5CC1AA181EAC8AA200C48C0B /* simple_array.json in Resources */,
+				5C6CC7121EAC899C00ABD0F7 /* Main.storyboard in Resources */,
+				5CC1AA191EAC8AA200C48C0B /* simple_dictionary.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC1A9FE1EAC8A3200C48C0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC1AA1B1EAC8B2A00C48C0B /* simple_array.json in Resources */,
+				5CC1AA1C1EAC8B2A00C48C0B /* simple_dictionary.json in Resources */,
+				5CC1AA0D1EAC8A3200C48C0B /* LaunchScreen.storyboard in Resources */,
+				5CC1AA0A1EAC8A3200C48C0B /* Assets.xcassets in Resources */,
+				5CC1AA081EAC8A3200C48C0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		553EC515C3D827C6356F929F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		94BF8278E873591A5C1284F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JsonifyDemo/Pods-JsonifyDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C44FF6BAEB6EC5910C7C6776 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JsonifyDemo/Pods-JsonifyDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C6CC7031EAC899C00ABD0F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6CC70D1EAC899C00ABD0F7 /* ViewController.swift in Sources */,
+				5C6CC70B1EAC899C00ABD0F7 /* AppDelegate.swift in Sources */,
+				5CC1AA131EAC8A7E00C48C0B /* JsonifyDemo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC1A9FC1EAC8A3200C48C0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC1AA051EAC8A3200C48C0B /* ViewController.swift in Sources */,
+				5CC1AA031EAC8A3200C48C0B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C6CC7101EAC899C00ABD0F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C6CC7111EAC899C00ABD0F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CC1AA061EAC8A3200C48C0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CC1AA071EAC8A3200C48C0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CC1AA0B1EAC8A3200C48C0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CC1AA0C1EAC8A3200C48C0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C6CC7141EAC899C00ABD0F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C6CC7151EAC899C00ABD0F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		5C6CC7171EAC899C00ABD0F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D38C2578CB258DB9E74D11E /* Pods-JsonifyDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 63YL5QDMNS;
+				INFOPLIST_FILE = JsonifyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.meniny.JsonifyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5C6CC7181EAC899C00ABD0F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DFD15A2AA033B243E5B25CB /* Pods-JsonifyDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 63YL5QDMNS;
+				INFOPLIST_FILE = JsonifyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.meniny.JsonifyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5CC1AA101EAC8A3200C48C0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 63YL5QDMNS;
+				INFOPLIST_FILE = JsonifyDemoiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.meniny.JsonifyDemoiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CC1AA111EAC8A3200C48C0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 63YL5QDMNS;
+				INFOPLIST_FILE = JsonifyDemoiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.meniny.JsonifyDemoiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C6CC7021EAC899C00ABD0F7 /* Build configuration list for PBXProject "JsonifyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C6CC7141EAC899C00ABD0F7 /* Debug */,
+				5C6CC7151EAC899C00ABD0F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C6CC7161EAC899C00ABD0F7 /* Build configuration list for PBXNativeTarget "JsonifyDemoOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C6CC7171EAC899C00ABD0F7 /* Debug */,
+				5C6CC7181EAC899C00ABD0F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CC1AA0F1EAC8A3200C48C0B /* Build configuration list for PBXNativeTarget "JsonifyDemoiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC1AA101EAC8A3200C48C0B /* Debug */,
+				5CC1AA111EAC8A3200C48C0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C6CC6FF1EAC899C00ABD0F7 /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - Jsonify (1.0.0)
+
+DEPENDENCIES:
+  - Jsonify (from `../`)
+
+EXTERNAL SOURCES:
+  Jsonify:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Jsonify: fb63ae4fc542da140c9ce931e546d7e99b3b4e38
+
+PODFILE CHECKSUM: 0aaf18ad89b61f0f2055ac51a0fd896b2770a231
+
+COCOAPODS: 1.2.0.beta.1
