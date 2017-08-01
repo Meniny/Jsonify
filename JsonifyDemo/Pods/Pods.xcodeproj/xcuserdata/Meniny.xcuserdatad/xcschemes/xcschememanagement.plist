@@ -4,29 +4,45 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Jsonify.xcscheme</key>
+		<key>Jsonify-OSX.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
 		</dict>
-		<key>Pods-JsonifyDemo.xcscheme</key>
+		<key>Jsonify-iOS.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
+		</dict>
+		<key>Pods-JsonifyDemoOSX.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-JsonifyDemoiOS.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>B9F61B9C70CA56A7B70DE550A7D27EDD</key>
+		<key>08E0AA98EE7D888ED8B82B3D1147C4D2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F7C5A6C02AA70F86F5CAF476B30782BB</key>
+		<key>3886731F584876995B02DEA772F5B1AC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AC6CAA977A1C3C832C4822D36CBFEB6B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F59005F7F55D3AD941BCB3684E665911</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -1,10 +1,15 @@
-# Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
 
-target 'JsonifyDemo' do
-  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+def jsonify()
   use_frameworks!
-
-  # Pods for JsonifyDemo
   pod 'Jsonify', :path => '../'
+end
+
+target 'JsonifyDemoiOS' do
+  platform :ios, '9.0'
+  jsonify()
+end
+
+target 'JsonifyDemoOSX' do
+  platform :osx, '10.10'
+  jsonify()
 end

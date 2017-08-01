@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1EE201D2897790CFEA060046 /* Pods_JsonifyDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBC6745A7BC7A89B3362EE54 /* Pods_JsonifyDemo.framework */; };
+		182279E476FE9005388715FD /* Pods_JsonifyDemoOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00422C7C8897108B8320F3FE /* Pods_JsonifyDemoOSX.framework */; };
 		5C6CC70B1EAC899C00ABD0F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6CC70A1EAC899C00ABD0F7 /* AppDelegate.swift */; };
 		5C6CC70D1EAC899C00ABD0F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6CC70C1EAC899C00ABD0F7 /* ViewController.swift */; };
 		5C6CC70F1EAC899C00ABD0F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C6CC70E1EAC899C00ABD0F7 /* Assets.xcassets */; };
@@ -23,9 +23,13 @@
 		5CC1AA191EAC8AA200C48C0B /* simple_dictionary.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CC1AA161EAC8AA200C48C0B /* simple_dictionary.json */; };
 		5CC1AA1B1EAC8B2A00C48C0B /* simple_array.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CC1AA151EAC8AA200C48C0B /* simple_array.json */; };
 		5CC1AA1C1EAC8B2A00C48C0B /* simple_dictionary.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CC1AA161EAC8AA200C48C0B /* simple_dictionary.json */; };
+		5CFD2CA01F30F3D80087EE29 /* Jsonify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFD2C9F1F30F3D80087EE29 /* Jsonify.framework */; };
+		8C5D70870122F51E7B02F395 /* Pods_JsonifyDemoiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70B3E130A1C0040E06335085 /* Pods_JsonifyDemoiOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00422C7C8897108B8320F3FE /* Pods_JsonifyDemoOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JsonifyDemoOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		075ABB173F436F389EC6FE0C /* Pods-JsonifyDemoOSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JsonifyDemoOSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-JsonifyDemoOSX/Pods-JsonifyDemoOSX.release.xcconfig"; sourceTree = "<group>"; };
 		1DFD15A2AA033B243E5B25CB /* Pods-JsonifyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JsonifyDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JsonifyDemo/Pods-JsonifyDemo.release.xcconfig"; sourceTree = "<group>"; };
 		5C6CC7071EAC899C00ABD0F7 /* JsonifyDemoOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JsonifyDemoOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C6CC70A1EAC899C00ABD0F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,8 +48,13 @@
 		5CC1AA121EAC8A7E00C48C0B /* JsonifyDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonifyDemo.swift; sourceTree = "<group>"; };
 		5CC1AA151EAC8AA200C48C0B /* simple_array.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = simple_array.json; sourceTree = "<group>"; };
 		5CC1AA161EAC8AA200C48C0B /* simple_dictionary.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = simple_dictionary.json; sourceTree = "<group>"; };
+		5CFD2C9F1F30F3D80087EE29 /* Jsonify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Jsonify.framework; path = "Pods/../build/Debug-iphoneos/Jsonify-iOS/Jsonify.framework"; sourceTree = "<group>"; };
+		61F606734BDE72E24AD1EC40 /* Pods-JsonifyDemoiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JsonifyDemoiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JsonifyDemoiOS/Pods-JsonifyDemoiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		70B3E130A1C0040E06335085 /* Pods_JsonifyDemoiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JsonifyDemoiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D38C2578CB258DB9E74D11E /* Pods-JsonifyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JsonifyDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JsonifyDemo/Pods-JsonifyDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		AA0DEB8DD854D03E473D4F15 /* Pods-JsonifyDemoOSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JsonifyDemoOSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JsonifyDemoOSX/Pods-JsonifyDemoOSX.debug.xcconfig"; sourceTree = "<group>"; };
 		DBC6745A7BC7A89B3362EE54 /* Pods_JsonifyDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JsonifyDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1FAE34B91AE1221DCB74283 /* Pods-JsonifyDemoiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JsonifyDemoiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-JsonifyDemoiOS/Pods-JsonifyDemoiOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +63,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CC1A9FB1EAC89F400C48C0B /* Jsonify.framework in Frameworks */,
-				1EE201D2897790CFEA060046 /* Pods_JsonifyDemo.framework in Frameworks */,
+				182279E476FE9005388715FD /* Pods_JsonifyDemoOSX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CFD2CA01F30F3D80087EE29 /* Jsonify.framework in Frameworks */,
+				8C5D70870122F51E7B02F395 /* Pods_JsonifyDemoiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,8 +82,11 @@
 		48147741D9B02FE1AFD9B2D7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5CFD2C9F1F30F3D80087EE29 /* Jsonify.framework */,
 				5CC1A9FA1EAC89F400C48C0B /* Jsonify.framework */,
 				DBC6745A7BC7A89B3362EE54 /* Pods_JsonifyDemo.framework */,
+				00422C7C8897108B8320F3FE /* Pods_JsonifyDemoOSX.framework */,
+				70B3E130A1C0040E06335085 /* Pods_JsonifyDemoiOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -131,6 +145,10 @@
 			children = (
 				7D38C2578CB258DB9E74D11E /* Pods-JsonifyDemo.debug.xcconfig */,
 				1DFD15A2AA033B243E5B25CB /* Pods-JsonifyDemo.release.xcconfig */,
+				AA0DEB8DD854D03E473D4F15 /* Pods-JsonifyDemoOSX.debug.xcconfig */,
+				075ABB173F436F389EC6FE0C /* Pods-JsonifyDemoOSX.release.xcconfig */,
+				61F606734BDE72E24AD1EC40 /* Pods-JsonifyDemoiOS.debug.xcconfig */,
+				E1FAE34B91AE1221DCB74283 /* Pods-JsonifyDemoiOS.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -162,9 +180,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CC1AA0F1EAC8A3200C48C0B /* Build configuration list for PBXNativeTarget "JsonifyDemoiOS" */;
 			buildPhases = (
+				2466ED5D6A16A0AB64A97B0F /* [CP] Check Pods Manifest.lock */,
 				5CC1A9FC1EAC8A3200C48C0B /* Sources */,
 				5CC1A9FD1EAC8A3200C48C0B /* Frameworks */,
 				5CC1A9FE1EAC8A3200C48C0B /* Resources */,
+				488786B975030AEEF6DE63CB /* [CP] Embed Pods Frameworks */,
+				A40C194D90207D42A023E90D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,6 +264,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2466ED5D6A16A0AB64A97B0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		488786B975030AEEF6DE63CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JsonifyDemoiOS/Pods-JsonifyDemoiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		553EC515C3D827C6356F929F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -255,7 +306,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		94BF8278E873591A5C1284F7 /* [CP] Copy Pods Resources */ = {
@@ -270,7 +321,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JsonifyDemo/Pods-JsonifyDemo-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JsonifyDemoOSX/Pods-JsonifyDemoOSX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A40C194D90207D42A023E90D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JsonifyDemoiOS/Pods-JsonifyDemoiOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C44FF6BAEB6EC5910C7C6776 /* [CP] Embed Pods Frameworks */ = {
@@ -285,7 +351,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JsonifyDemo/Pods-JsonifyDemo-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JsonifyDemoOSX/Pods-JsonifyDemoOSX-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -434,7 +500,7 @@
 		};
 		5C6CC7171EAC899C00ABD0F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D38C2578CB258DB9E74D11E /* Pods-JsonifyDemo.debug.xcconfig */;
+			baseConfigurationReference = AA0DEB8DD854D03E473D4F15 /* Pods-JsonifyDemoOSX.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -449,7 +515,7 @@
 		};
 		5C6CC7181EAC899C00ABD0F7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1DFD15A2AA033B243E5B25CB /* Pods-JsonifyDemo.release.xcconfig */;
+			baseConfigurationReference = 075ABB173F436F389EC6FE0C /* Pods-JsonifyDemoOSX.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -464,10 +530,15 @@
 		};
 		5CC1AA101EAC8A3200C48C0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61F606734BDE72E24AD1EC40 /* Pods-JsonifyDemoiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 63YL5QDMNS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Jsonify-iOS",
+				);
 				INFOPLIST_FILE = JsonifyDemoiOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -481,10 +552,15 @@
 		};
 		5CC1AA111EAC8A3200C48C0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1FAE34B91AE1221DCB74283 /* Pods-JsonifyDemoiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 63YL5QDMNS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Jsonify-iOS",
+				);
 				INFOPLIST_FILE = JsonifyDemoiOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
