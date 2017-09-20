@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "Jsonify"
-  s.version          = "2.0.1"
+  s.version          = "2.1.0"
   s.summary          = "A delightful JSON parsing framework written in Swift"
   s.description      = <<-DESC
                         A delightful JSON parsing framework for iOS/macOS platforms written in Swift.

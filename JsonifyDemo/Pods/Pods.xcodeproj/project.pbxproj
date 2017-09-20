@@ -46,36 +46,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0579131FE951348AC58102102BDB40C5 /* Pods-JsonifyDemoiOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JsonifyDemoiOS.modulemap"; sourceTree = "<group>"; };
+		0579131FE951348AC58102102BDB40C5 /* Pods-JsonifyDemoiOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JsonifyDemoiOS.modulemap"; sourceTree = "<group>"; };
 		097CA8AD6D8FF053317ED66843C8034D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Jsonify-iOS/Info.plist"; sourceTree = "<group>"; };
 		0A682F2E60A503209DAC9A059CE364A5 /* Jsonify-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Jsonify-iOS-prefix.pch"; path = "../Jsonify-iOS/Jsonify-iOS-prefix.pch"; sourceTree = "<group>"; };
 		0F21A4A6F87F279856FCE6C23A305F8F /* Jsonify-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Jsonify-iOS.xcconfig"; path = "../Jsonify-iOS/Jsonify-iOS.xcconfig"; sourceTree = "<group>"; };
 		0FC6B82F471480971B3F07509517A8C9 /* Pods-JsonifyDemoiOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JsonifyDemoiOS-dummy.m"; sourceTree = "<group>"; };
 		17824A936E50DFFD9E5A6C13B877E770 /* Pods-JsonifyDemoiOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JsonifyDemoiOS-acknowledgements.markdown"; sourceTree = "<group>"; };
-		233880EAC93AE54C8BCDF550744C48DA /* Jsonify-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "Jsonify-iOS.modulemap"; path = "../Jsonify-iOS/Jsonify-iOS.modulemap"; sourceTree = "<group>"; };
+		233880EAC93AE54C8BCDF550744C48DA /* Jsonify-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Jsonify-iOS.modulemap"; path = "../Jsonify-iOS/Jsonify-iOS.modulemap"; sourceTree = "<group>"; };
 		32C3FF0CA84D407BA0FC092A19A38C34 /* Jsonify-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Jsonify-iOS-dummy.m"; path = "../Jsonify-iOS/Jsonify-iOS-dummy.m"; sourceTree = "<group>"; };
 		33DFDE70F8890A2EE841E061CD964FCD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		42EEAED74A1ADC2F3DB5AAE4B130408B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52B64EA4F4187C366BD3CCFEA667D5FE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		549F8205B364900B996CB6253A152233 /* Pods-JsonifyDemoiOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JsonifyDemoiOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		5632E14923EA97D98C2F5F29D1254160 /* Jsonify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Jsonify.framework; path = "Jsonify-OSX.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5632E14923EA97D98C2F5F29D1254160 /* Jsonify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Jsonify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59051ED9C809424E64B6D2EDF1A807C6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A69A3DAAE67D4BC953D10F6F27449A6 /* Pods-JsonifyDemoiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JsonifyDemoiOS.release.xcconfig"; sourceTree = "<group>"; };
 		5DCE63EB95F2B22652A41F90317712B2 /* Jsonify-OSX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Jsonify-OSX-umbrella.h"; sourceTree = "<group>"; };
 		60EDCF7E0CDAE1B9DF3EAAF5517E419F /* Jsonify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Jsonify.h; sourceTree = "<group>"; };
 		669D4B9F6D8CE390EBE080C9E8C2805D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6DDBDD56C4FAC238AA5DC6EE51AD57A8 /* Pods-JsonifyDemoOSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JsonifyDemoOSX.release.xcconfig"; sourceTree = "<group>"; };
-		79A4BC600E56EBA81406C1E78871AB15 /* Pods_JsonifyDemoOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JsonifyDemoOSX.framework; path = "Pods-JsonifyDemoOSX.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A4BC600E56EBA81406C1E78871AB15 /* Pods_JsonifyDemoOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JsonifyDemoOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A6C852A9553EA90D5612EB41AA3942C /* Pods-JsonifyDemoiOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JsonifyDemoiOS-umbrella.h"; sourceTree = "<group>"; };
 		8006F2EA269E58F8DF71D5033D2D0468 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		856241B08F6E206D5D9E1CFCD24F0DF8 /* Pods-JsonifyDemoiOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JsonifyDemoiOS-resources.sh"; sourceTree = "<group>"; };
-		862C721158F4285B3ABC656FE6510D16 /* Pods_JsonifyDemoiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JsonifyDemoiOS.framework; path = "Pods-JsonifyDemoiOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		862C721158F4285B3ABC656FE6510D16 /* Pods_JsonifyDemoiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JsonifyDemoiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD100228C855EB341B64C9559ADE2ED /* Jsonify-OSX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Jsonify-OSX-dummy.m"; sourceTree = "<group>"; };
 		8C09802544C808F4072ADE5F3E9469E3 /* Pods-JsonifyDemoiOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JsonifyDemoiOS-frameworks.sh"; sourceTree = "<group>"; };
 		8C547F7E6C8FE5C1755E95CA09D9A523 /* Pods-JsonifyDemoOSX-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JsonifyDemoOSX-resources.sh"; sourceTree = "<group>"; };
-		921E149D64DA7EF09DCE3C09180EBD2B /* Jsonify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Jsonify.framework; path = "Jsonify-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9BAF962678E66A5783112A4F10F64E79 /* Pods-JsonifyDemoOSX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JsonifyDemoOSX.modulemap"; sourceTree = "<group>"; };
+		921E149D64DA7EF09DCE3C09180EBD2B /* Jsonify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Jsonify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BAF962678E66A5783112A4F10F64E79 /* Pods-JsonifyDemoOSX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JsonifyDemoOSX.modulemap"; sourceTree = "<group>"; };
 		9D91A0780F9B16F8DEE7C04140D4183D /* Pods-JsonifyDemoOSX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JsonifyDemoOSX-umbrella.h"; sourceTree = "<group>"; };
 		AD3E309D6BA70642BB722E91E68772CE /* JsonifyModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JsonifyModel.swift; sourceTree = "<group>"; };
 		B7CD725F1A45409B36FCB0AF9DD97098 /* Pods-JsonifyDemoOSX-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JsonifyDemoOSX-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -88,7 +88,7 @@
 		DCFB4F71D624ADFC9E49A779389A03F8 /* Jsonify-OSX-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Jsonify-OSX-prefix.pch"; sourceTree = "<group>"; };
 		E10E7A7F19CA8AB641163F8D4A7C24F0 /* Jsonify.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Jsonify.swift; sourceTree = "<group>"; };
 		F0A5391D61206D1A511F4E8583B60A48 /* Pods-JsonifyDemoOSX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JsonifyDemoOSX-dummy.m"; sourceTree = "<group>"; };
-		F3A9E1FBD8DE5F42194221621002ED2C /* Jsonify-OSX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Jsonify-OSX.modulemap"; sourceTree = "<group>"; };
+		F3A9E1FBD8DE5F42194221621002ED2C /* Jsonify-OSX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Jsonify-OSX.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,7 +135,6 @@
 				E10E7A7F19CA8AB641163F8D4A7C24F0 /* Jsonify.swift */,
 				AD3E309D6BA70642BB722E91E68772CE /* JsonifyModel.swift */,
 			);
-			name = Jsonify;
 			path = Jsonify;
 			sourceTree = "<group>";
 		};
