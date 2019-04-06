@@ -44,7 +44,7 @@ open class JsonifyModel: NSObject {
     }
     
     public convenience init(string: String, encoding: String.Encoding = String.Encoding.utf8) {
-        self.init(string: string, encoding: encoding)
+        self.init(JSONString: string, encoding: encoding)
     }
     
     public init(JsonifyObject json: Jsonify) {
